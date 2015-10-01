@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+    Type="Note"
+    DisplayName="Topic / IDEA Description" 
+    Description="Please enter any additional details you may have about your topic or idea. This is additional details of the program or IDEA." 
+    Required="FALSE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="FALSE" 
+    NumLines="6" 
+    RichText="FALSE" 
+    Sortable="FALSE" 
+    Group="~IDEAS" 
+    ID="{b3a581be-796c-4e52-8487-648f063999bf}" 
+    SourceID="{54d87f53-a274-4749-83bb-f9b56f955082}"
+    StaticName="Topic_x0020_-_x0020_IDEA_x0020_Details"
+    Name="Topic_x0020_-_x0020_IDEA_x0020_Details"
+    RestrictedMode="TRUE"
+    RichTextMode="Compatible"
+    IsolateStyles="FALSE"
+    AppendOnly="FALSE"
+    UnlimitedLengthInDocumentLibrary="FALSE" 
+    AllowDeletion="FALSE" 
+    Overwrite="TRUE">
+  </Field>
+</Elements>

@@ -1,0 +1,10 @@
+﻿<WorkflowAssociation xmlns="http://schemas.microsoft.com/sharepoint/2012/app/workflow">
+  <Description>ArchiveIdeas - ItemAdded</Description>
+  <DisplayName>ArchiveIdeas - ItemAdded</DisplayName>
+  <Enabled>true</Enabled>
+  <EventSourceGUID></EventSourceGUID>
+  <EventType>ItemAdded</EventType>
+  <HistoryListId></HistoryListId>
+  <Id>aa4039a2-f676-4826-9db3-5cd72ae7037b</Id>
+  <TaskListId></TaskListId>
+</WorkflowAssociation>

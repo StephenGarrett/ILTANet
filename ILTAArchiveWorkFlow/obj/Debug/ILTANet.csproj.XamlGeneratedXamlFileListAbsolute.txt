@@ -1,0 +1,2 @@
+obj\Debug\Workflow.g.xaml
+obj\Debug\ILTAArchiveWorkFlow.Archive_Ideas_Workflow_BeforeInitializeComponentHelper.txt

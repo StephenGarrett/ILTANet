@@ -1,0 +1,65 @@
+<Activity mc:Ignorable="sads" x:Class="ILTAArchiveWorkFlow.Archive_Ideas.Workflow"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:made="clr-namespace:Microsoft.Activities.Design.ExpressionTranslation;assembly=Microsoft.Activities.Design"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities"
+ xmlns:p="wf://workflow.windows.net/$Activities"
+ xmlns:p1="http://schemas.microsoft.com/workflow/2012/07/xaml/activities"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Sequence sads:DebugSymbol.Symbol="9xBDiEHcR71IT4XdbN5S3988TUQ6XFNvdXJjZVxJTFRBXElMVEFuZXRJZGVhc1xJTFRBQXJjaGl2ZVdvcmtGbG93XFdvcmtmbG93c1xJZGVhc1xXb3JrZmxvdy54YW1sAykDUQ4CAQEtBTMPAgEcNAVPFAIBAg==">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" x:Name="__ReferenceID0" Name="outcome_0" />
+    </Sequence.Variables>
+    <p:Email AdditionalHeaders="{x:Null}" BCC="{x:Null}" CC="{x:Null}" Body="A new idea was added to the idea list." DisplayName="New Idea Email" Subject="New Idea Added">
+      <p:Email.To>
+        <InArgument x:TypeArguments="sco:Collection(x:String)">
+          <p1:ExpressionContainerValue x:TypeArguments="sco:Collection(x:String)" DisplayName="new System.Collections.ObjectModel.Collection&lt;string&gt;{&quot;erika@iltanet.org&quot;}">
+            <p1:BuildCollection x:TypeArguments="x:String">
+              <p1:BuildCollection.Values>
+                <InArgument x:TypeArguments="x:String">erika@iltanet.org</InArgument>
+              </p1:BuildCollection.Values>
+            </p1:BuildCollection>
+          </p1:ExpressionContainerValue>
+        </InArgument>
+      </p:Email.To>
+    </p:Email>
+    <p:SingleTask DueDate="{x:Null}" TaskId="{x:Null}" TaskItemId="{x:Null}" AssignedTo="erika@iltanet.org" AssignmentEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;You have a new task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" AssignmentEmailSubject="Task Assigned" Body="Please review the new idea at: " CancelationEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;One of your tasks was canceled and deleted. You do not need to take any further action on that task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" CancelationEmailSubject="Task Canceled" CompletedStatus="Completed" ContentTypeId="0x0108003365C4474CAE8C42BCE396314E88E51F" DefaultTaskOutcome="0" OutcomeFieldName="TaskOutcome" OverdueEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;You have an &lt;/span&gt;&lt;span style='font-size:13.5pt;color:#ff3b3b;'&gt;overdue&lt;/span&gt;&lt;span style='font-size:13.5pt'&gt; task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" OverdueEmailSubject="Task Overdue" OverdueReminderRepeat="1" OverdueRepeatTimes="1" PreserveIncompleteTasks="False" SendReminderEmail="True" Title="Review Idea" WaitForTaskCompletion="True" WaiveAssignmentEmail="False" WaiveCancelationEmail="False">
+      <p:SingleTask.Outcome>
+        <OutArgument x:TypeArguments="x:Int32">
+          <p1:ExpressionContainerReference x:TypeArguments="x:Int32" DisplayName="outcome_0">
+            <p1:ExpressionContainerReference.Arguments>
+              <InOutArgument x:TypeArguments="x:Int32" x:Key="outcome_0">
+                <VariableReference x:TypeArguments="x:Int32" Variable="{x:Reference __ReferenceID0}" />
+              </InOutArgument>
+            </p1:ExpressionContainerReference.Arguments>
+            <ArgumentReference x:TypeArguments="x:Int32" ArgumentName="outcome_0" />
+          </p1:ExpressionContainerReference>
+        </OutArgument>
+      </p:SingleTask.Outcome>
+      <p:SingleTask.RelatedContentLinkListId>
+        <InArgument x:TypeArguments="s:Guid">
+          <p1:ExpressionContainerValue x:TypeArguments="s:Guid">
+            <p:GetCurrentListId />
+          </p1:ExpressionContainerValue>
+        </InArgument>
+      </p:SingleTask.RelatedContentLinkListId>
+      <p:SingleTask.RelatedContentLinkListItemId>
+        <InArgument x:TypeArguments="s:Guid">
+          <p1:ExpressionContainerValue x:TypeArguments="s:Guid">
+            <p:GetCurrentItemGuid />
+          </p1:ExpressionContainerValue>
+        </InArgument>
+      </p:SingleTask.RelatedContentLinkListItemId>
+      <p:SingleTask.RelatedContentLinkListItemIntegerId>
+        <InArgument x:TypeArguments="x:Int32">
+          <p1:ExpressionContainerValue x:TypeArguments="x:Int32">
+            <p:GetCurrentItemId />
+          </p1:ExpressionContainerValue>
+        </InArgument>
+      </p:SingleTask.RelatedContentLinkListItemIntegerId>
+    </p:SingleTask>
+  </Sequence>
+</Activity>

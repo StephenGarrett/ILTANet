@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100FB36F6DD0E0D4874BD6659C579D38E55" Name="Idea" Group="Custom Content Types" Description="Describes an idea for an educational topic of interest to the ILTA community." Inherits="TRUE" Version="0">
+    <FieldRefs></FieldRefs>
+  </ContentType>
+</Elements>

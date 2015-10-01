@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="83546b05-9891-40ab-b103-7a5c0eda39c3" 
+        solutionId="83546b05-9891-40ab-b103-7a5c0eda39c3" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ILTAArchiveWorkFlow"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="b621406e-7e7e-4bed-adc2-d54081d59f35" />
+  </features>
+</package>

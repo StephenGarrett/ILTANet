@@ -1,0 +1,5 @@
+obj\Debug\_ILTAArchiveWorkFlow.g.cs
+obj\Debug\Workflow.g.cs
+obj\Debug\ILTAArchiveWorkFlow.Archive_Ideas_Workflow_BeforeInitializeComponentHelper.cs
+obj\Debug\_AssemblyInfo_7c8a79d3ec144014bba1349dd7af3b2f.g.cs
+D:\Source\ILTA\ILTANet\ILTAArchiveWorkFlow\obj\Debug\ILTAArchiveWorkFlow.Archive_Ideas_Workflow_CompiledExpressionRoot.cs

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field 
+    Type="Choice" 
+    DisplayName="Area of Discipline" 
+    Description="The ILTA Programming Framework divides the educational content into four Areas of Discipline" 
+    Required="FALSE" 
+    EnforceUniqueValues="FALSE" 
+    Indexed="FALSE" 
+    Format="Dropdown" 
+    FillInChoice="FALSE" 
+    Group="~IDEAS" 
+    ID="{cb31b193-5b64-4da3-ad8e-d2d1dcbe080f}" 
+    SourceID="{54d87f53-a274-4749-83bb-f9b56f955082}" 
+    StaticName="Area_x0020_of_x0020_Discipline" 
+    Name="Area_x0020_of_x0020_Discipline" 
+    Version="2">
+    <CHOICES>
+      <CHOICE>1 - Info Mgmt</CHOICE>
+      <CHOICE>2 - Business Mgmt</CHOICE>
+      <CHOICE>3 - Apps/Desktop</CHOICE>
+      <CHOICE>4 - Tech Ops</CHOICE>
+      <CHOICE>5 - Relationship</CHOICE>
+      <CHOICE>6 - Developing Markets</CHOICE>
+      <CHOICE>7 - Multiple Teams</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

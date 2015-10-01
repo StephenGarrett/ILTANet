@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Workflow4App" DefaultFile="Workflow.xaml" SupportedTrustLevels="All" SupportedDeploymentScopes="AppPackage" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Workflow.xaml" Target="ArchiveIdeas\" Type="AppPackage" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="WorkflowAssociation.EventSourceGUID" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Description" Value="ArchiveIdeas - ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.DisplayName" Value="ArchiveIdeas - ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Enabled" Value="true" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.EventSourceGUID" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.EventType" Value="ItemAdded" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.HistoryListId" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.Id" Value="aa4039a2-f676-4826-9db3-5cd72ae7037b" />
+    <ExtensionDataItem Key="WorkflowAssociationItemAdded.TaskListId" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationItemUpdated.Enabled" Value="false" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.Description" Value="ArchiveIdeas - WorkflowStart" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.DisplayName" Value="ArchiveIdeas - WorkflowStart" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.Enabled" Value="true" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.EventSourceGUID" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.EventType" Value="WorkflowStart" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.HistoryListId" Value="" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.Id" Value="fda3af50-c6aa-497a-a76c-6caec5a5e4d8" />
+    <ExtensionDataItem Key="WorkflowAssociationManualStart.TaskListId" Value="" />
+    <ExtensionDataItem Key="WorkflowDefinition.Description" Value="My 'Archive Ideas' Workflow" />
+    <ExtensionDataItem Key="WorkflowDefinition.DisplayName" Value="Archive Ideas" />
+    <ExtensionDataItem Key="WorkflowDefinition.Id" Value="1329071a-93c5-4526-8be7-fc8ea4a539ca" />
+    <ExtensionDataItem Key="WorkflowDefinition.RestrictAssociationToId" Value="" />
+    <ExtensionDataItem Key="WorkflowDefinition.RestrictAssociationToType" Value="List" />
+  </ExtensionData>
+</ProjectItem>
